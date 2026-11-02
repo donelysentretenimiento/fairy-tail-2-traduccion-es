@@ -1,0 +1,20 @@
+# Compilación
+bin/
+obj/
+salida/
+.vs/
+*.user
+
+# Nunca se publican archivos del juego ni copias de seguridad
+originales/
+backups_juego/
+referencia_actual/
+pruebas/
+*.fdata
+*.ORIGINAL
+message.json
+message.json.e
+
+# Temporales
+*.tmp
+__pycache__/
