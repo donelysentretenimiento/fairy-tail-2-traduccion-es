@@ -1,0 +1,136 @@
+﻿ID,Inglés,Español,Origen
+STR_TEROP_NICKNAME_021,12 Golden Keys of the Zodiac: Maiden,12 Llaves Doradas del Zodiaco: Virgo,manual
+STR_TEROP_NICKNAME_031,12 Golden Keys of the Zodiac: Lion,12 Llaves Doradas del Zodiaco: Leo,manual
+STR_TEROP_NICKNAME_032,12 Golden Keys of the Zodiac: Scorpion,12 Llaves Doradas del Zodiaco: Escorpio,manual
+STR_TEROP_NICKNAME_033,Canis Minor,Canis Minor,manual
+STR_TEROP_NICKNAME_035,Spriggan 12: Nation Destroyer,Spriggan 12: Destructor de Naciones,manual
+STR_TEROP_NICKNAME_036,Spriggan 12: Desert King,Spriggan 12: Rey del Desierto,manual
+STR_TEROP_NICKNAME_037,Spriggan 12: Judge,Spriggan 12: Juez,manual
+STR_TEROP_NICKNAME_038,Spriggan 12: Warrior Queen,Spriggan 12: Reina Guerrera,manual
+STR_TEROP_NICKNAME_039,Spriggan 12: Assassin,Spriggan 12: Asesino,manual
+STR_SKILL_TREE_ORIGIN_NAME_201,ATK + <NUM0>%,ATQ + <NUM0>%,manual
+STR_SKILL_TREE_ORIGIN_NAME_202,DEF + <NUM0>%,DEF + <NUM0>%,manual
+STR_SKILL_TREE_ORIGIN_NAME_203,SPD + <NUM0>%,VEL + <NUM0>%,manual
+STR_QUEST_CHARA_TITLE_050,Fairy Pop Idol,Ídolo Pop de Fairy,manual
+STR_OPTION_DEFINE_037,STORY,HISTORIA,manual
+STR_OPTION_DEFINE_038,BALANCED,EQUILIBRADO,manual
+STR_OPTION_DEFINE_039,HARD,DIFÍCIL,manual
+STR_MONSTER_NAME_000,Imp,Diablillo,manual
+STR_MONSTER_NAME_033,Golem,Gólem,manual
+STR_MONSTER_NAME_106,Assault Mode: Wall Eehto,Modo Asalto: Wall Eehto,manual
+STR_MONSTER_NAME_122,Dragon King Acnologia,Rey Dragón Acnologia,manual
+STR_MONSTER_NAME_123,Nine Demon Gates: Kyoka,Nueve Puertas Demoníacas: Kyoka,manual
+STR_MONSTER_NAME_126,Grim Reaper: Bloodman,Segador: Bloodman,manual
+STR_MONSTER_NAME_127,Scarlet Despair: Irene Belserion,Desesperación Escarlata: Irene Belserion,manual
+STR_MONSTER_NAME_128,Wizard King: August,Rey Mago: August,manual
+STR_LIBRARY_HELP_TITLE_095,Atelier: BGM,Taller: BGM,manual
+STR_LIBRARY_GLOSSARY_TITLE_000,Akane Beach,Playa Akane,manual
+STR_LIBRARY_GLOSSARY_TITLE_051,Tartaros,Tártaros,manual
+STR_ITEM_NAME_1356,Zenith of Fire Dragon,Cénit del Dragón de Fuego,manual
+STR_EXTRA_BGM_010,Tartaros,Tártaros,manual
+STR_EXTRA_BGM_023,Grand Magic Games,Grandes Juegos Mágicos,manual
+STR_EVENT_TITLE_NAME_046,Natsu vs. Zeref,Natsu contra Zeref,manual
+STR_EVENT_TITLE_NAME_471,Atelier Lucy 1,Taller de Lucy 1,manual
+STR_EVENT_TITLE_NAME_472,Atelier Lucy 2,Taller de Lucy 2,manual
+STR_EVENT_TITLE_NAME_473,Atelier Lucy 3,Taller de Lucy 3,manual
+STR_EVENT_TITLE_NAME_474,Atelier Lucy 4,Taller de Lucy 4,manual
+STR_COSTUME_061,Fairy School,Escuela de Fairy,manual
+STR_COSTUME_068,Fairy School,Escuela de Fairy,manual
+STR_COSTUME_075,Fairy School,Escuela de Fairy,manual
+STR_ITEM_EFFECT_0032,Whiteout,PV +3,modelo
+STR_ITEM_EFFECT_0085,Book of Almighty,Libro del Todopoderoso,modelo
+STR_ITEM_EFFECT_0087,Separating Ice Flame,Llama de Hielo Separadora Lv3,modelo
+STR_ITEM_EFFECT_0088,Repelling Ice Flame,Llama de Hielo Repelente Lv4,modelo
+STR_ITEM_EFFECT_0089,Interfering Ice Flame,Llama de Hielo Interferente,modelo
+STR_ITEM_EFFECT_0090,Mixed Ice Flame,Llama de Hielo Mezclada,modelo
+STR_ITEM_EFFECT_0091,Intermingling Ice Flame,Llama de Hielo Entrelazada,modelo
+STR_ITEM_EFFECT_0092,Penetrating Ice Flame,Llama de Hielo Penetrante,modelo
+STR_ITEM_EFFECT_0093,Fusing Ice Flame,Fusión de Hielo y Fuego,modelo
+STR_ITEM_EFFECT_0094,Cutting Wind Edge,Filo de Viento Cortante,modelo
+STR_ITEM_EFFECT_0095,Tip of the Storm,PV +1,modelo
+STR_ITEM_EFFECT_0096,Tip of the Whirlwind,PV +2,modelo
+STR_ITEM_EFFECT_0097,Tip of the Blackwind,PV +3,modelo
+STR_ITEM_EFFECT_0098,Tip of the Fierce Wind,PV +4,modelo
+STR_ITEM_EFFECT_0099,Tip of the Tempest,PV +5,modelo
+STR_ITEM_EFFECT_0157,Hoarfrost S,Escarcha S,modelo
+STR_ITEM_EFFECT_0158,Hoarfrost L,Escarcha L,modelo
+STR_ITEM_EFFECT_0211,Maelstrom,Maelstrom,modelo
+STR_ITEM_EFFECT_0532,Sands from Long Ago,Arenas del Pasado,modelo
+STR_ITEM_EFFECT_0534,Sands of Origin,Arenas del Origen,modelo
+STR_ITEM_EFFECT_0535,Seeing All,Visión Total,modelo
+STR_ITEM_EFFECT_0536,Dimensional Repair,Reparación Dimensional,modelo
+STR_ITEM_EFFECT_0537,Dimensional Adjustment,Ajuste Dimensional,modelo
+STR_ITEM_EFFECT_0538,Space Time Unification,Unificación Espacio-Temporal,modelo
+STR_ITEM_EFFECT_0539,Transcendence of Time,Trascendencia Temporal,modelo
+STR_ITEM_EFFECT_0541,Feeling at Ease,Sentirse Tranquilo,modelo
+STR_ITEM_EFFECT_0543,Raise the Mood,Elevar el Ánimo,modelo
+STR_ITEM_EFFECT_0544,Soaring Feelings,Sentimientos Elevados,modelo
+STR_ITEM_EFFECT_0545,Feel Good,Sentirse Bien,modelo
+STR_ITEM_EFFECT_0546,Dreamy Feeling,Sensación Onírica,modelo
+STR_ITEM_EFFECT_0547,Heavenly Comfort,Consuelo Celestial,modelo
+STR_ITEM_EFFECT_0549,ATK Up S,ATQ + S,modelo
+STR_ITEM_EFFECT_0550,ATK Up M,ATQ + M,modelo
+STR_ITEM_EFFECT_0551,ATK Up L,ATQ + L,modelo
+STR_ITEM_EFFECT_0552,ATK Up XL,ATQ + XL,modelo
+STR_ITEM_EFFECT_0553,DEF Up S,DEF + S,modelo
+STR_ITEM_EFFECT_1091,Tuning Heart S,Corazón de Afinación S,modelo
+STR_ITEM_EFFECT_1092,Tuning Heart M,Corazón de Afinación M,modelo
+STR_ITEM_EFFECT_1093,Tuning Heart L,Corazón de Afinación L,modelo
+STR_ITEM_EFFECT_1094,Tuning Heart XL,Corazón de Afinación XL,modelo
+STR_ITEM_EFFECT_1102,Swing of the Giant Star,Columpio de la Estrella Gigante,modelo
+STR_ITEM_EFFECT_1325,Adagio,Adagio,modelo
+STR_ITEM_EFFECT_1326,Andante,Andante,modelo
+STR_ITEM_EFFECT_1327,Allegro,Allegro,modelo
+STR_ITEM_EFFECT_1328,Presto,Presto,modelo
+STR_ITEM_EFFECT_1351,Lightbringer M,Portador de Luz M,modelo
+STR_ITEM_EFFECT_1352,Lightbringer L,Portador de Luz L,modelo
+STR_ITEM_EFFECT_1353,Command of War S,Mando de Guerra S,modelo
+STR_ITEM_EFFECT_1354,Command of War M,Mando de Guerra M,modelo
+STR_ITEM_EFFECT_1355,Command of War L,Mando de Guerra L,modelo
+STR_ITEM_EFFECT_1356,Soul Mirror S,Espejo del Alma S,modelo
+STR_ITEM_EFFECT_1357,Soul Mirror M,Espejo del Alma M,modelo
+STR_ITEM_EFFECT_1358,Soul Mirror L,Espejo del Alma L,modelo
+STR_ITEM_EFFECT_1359,Devil's Covenant S,Pacto Demoníaco S,modelo
+STR_ITEM_EFFECT_1360,Devil's Covenant M,Pacto Demoníaco M,modelo
+STR_ITEM_EFFECT_1361,Devil's Covenant L,Pacto Demoníaco L,modelo
+STR_ITEM_EFFECT_1362,Reverse Hourglass S,Reloj de Arena Inverso S,modelo
+STR_ITEM_EFFECT_1363,Reverse Hourglass M,Reloj de Arena Inverso M,modelo
+STR_ITEM_EFFECT_1364,Reverse Hourglass L,Reloj de Arena Inverso L,modelo
+STR_ITEM_EFFECT_1365,Disaster Alert S,Alerta de Desastre S,modelo
+STR_ITEM_EFFECT_1366,Disaster Alert M,Alerta de Desastre M,modelo
+STR_ITEM_EFFECT_1367,Disaster Alert L,Alerta de Desastre L,modelo
+STR_ITEM_EFFECT_1368,Maverick S,Maverick S,modelo
+STR_ITEM_EFFECT_1369,Maverick M,Maverick M,modelo
+STR_ITEM_EFFECT_1370,Maverick L,Maverick L,modelo
+STR_ITEM_EFFECT_1644,Indestructible,Indestructible,modelo
+STR_ITEM_EFFECT_1645,Invulnerable,Invulnerable,modelo
+STR_ITEM_EFFECT_1858,ATK +5,ATQ +5,modelo
+STR_ITEM_EFFECT_1859,ATK +10,ATQ +10,modelo
+STR_ITEM_EFFECT_1860,ATK +15,ATQ +15,modelo
+STR_ITEM_EFFECT_1861,ATK +20,ATQ +20,modelo
+STR_ITEM_EFFECT_1862,ATK +30,ATQ +30,modelo
+STR_ITEM_EFFECT_1863,DEF +5,DEF +5,modelo
+STR_ITEM_EFFECT_1864,DEF +10,DEF +10,modelo
+STR_ITEM_EFFECT_1865,DEF +15,DEF +15,modelo
+STR_ITEM_EFFECT_1866,DEF +20,DEF +20,modelo
+STR_ITEM_EFFECT_1867,DEF +30,DEF +30,modelo
+STR_ITEM_EFFECT_1868,SPD +5,VEL +5,modelo
+STR_ITEM_EFFECT_1869,SPD +10,VEL +10,modelo
+STR_ITEM_EFFECT_1870,SPD +15,VEL +15,modelo
+STR_ITEM_EFFECT_1871,SPD +20,VEL +20,modelo
+STR_ITEM_EFFECT_1872,SPD +30,VEL +30,modelo
+STR_ITEM_EFFECT_1950,SPD +50,VEL +50,modelo
+STR_ITEM_EFFECT_1951,ATK +50,ATQ +50,modelo
+STR_ITEM_EFFECT_1952,DEF +50,DEF +50,modelo
+STR_ITEM_EFFECT_2782,Puni Slayer,Cazador de Punis,modelo
+STR_ITEM_EFFECT_2783,Weasel Slayer,Cazador de Comadrejas,modelo
+STR_ITEM_EFFECT_2784,Phantom Slayer,Cazador de Espíritus,modelo
+STR_ITEM_EFFECT_2785,Golem Slayer,Cazador de Golems,modelo
+STR_ITEM_EFFECT_2786,Knight Slayer,Cazador de Caballeros,modelo
+STR_ITEM_EFFECT_2787,Scorpion Slayer,Cazador de Escorpiones,modelo
+STR_ITEM_EFFECT_2788,Hedgehog Slayer,Cazador de Erizos,modelo
+STR_ITEM_EFFECT_2789,Dragon Slayer,Cazador de Dragones,modelo
+STR_ITEM_EFFECT_2790,Shark Slayer,Cazador de Tiburones,modelo
+STR_ITEM_EFFECT_2791,Beetle Slayer,Cazador de Escarabajos,modelo
+STR_ITEM_EFFECT_2792,Sheep Slayer,Cazador de Ovejas,modelo
+STR_ITEM_EFFECT_2793,Roadrunner Slayer,Cazador de Correcaminos,modelo
