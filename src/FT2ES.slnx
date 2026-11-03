@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="FT2ES.App/FT2ES.App.csproj" />
+  <Project Path="FT2ES.Engine/FT2ES.Engine.csproj" />
+  <Project Path="FT2ES.EngineTests/FT2ES.EngineTests.csproj" />
+</Solution>

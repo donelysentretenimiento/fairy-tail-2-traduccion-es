@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>FT2ES</AssemblyName>
+    <RootNamespace>FT2ES.App</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>icono.ico</ApplicationIcon>
+    <Version>1.0.0</Version>
+    <Company>Donelys Entretenimiento</Company>
+    <Product>FAIRY TAIL 2 - Traducción al español</Product>
+    <Copyright>By Donelys Entretenimiento</Copyright>
+    <SatelliteResourceLanguages>es</SatelliteResourceLanguages>
+    <!-- Publicación: un solo EXE autocontenido (no requiere .NET instalado) -->
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <SelfContained>true</SelfContained>
+    <PublishSingleFile>true</PublishSingleFile>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FT2ES.Engine\FT2ES.Engine.csproj" />
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.4314.35" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="icono.ico" />
+  </ItemGroup>
+
+  <!-- Recursos incrustados: interfaz (sin dev), paquete de parche y gust_enc -->
+  <ItemGroup>
+    <EmbeddedResource Include="ui\**\*" Exclude="ui\dev\**" LogicalName="ui/%(RecursiveDir)%(Filename)%(Extension)" />
+    <EmbeddedResource Include="..\..\paquete\paquete.zip" LogicalName="paquete.zip" />
+    <EmbeddedResource Include="..\..\third_party\gust_tools\gust_enc.exe" LogicalName="gust_enc.exe" />
+    <EmbeddedResource Include="..\..\third_party\gust_tools\gust_enc.json" LogicalName="gust_enc.json" />
+    <EmbeddedResource Include="..\..\AGRADECIMIENTOS.md" LogicalName="AGRADECIMIENTOS.md" />
+  </ItemGroup>
+
+</Project>

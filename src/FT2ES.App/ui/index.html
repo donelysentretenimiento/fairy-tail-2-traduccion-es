@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FAIRY TAIL 2 — Traducción al español</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div id="app">
+  <div class="fondo" aria-hidden="true"></div>
+  <canvas id="brasas" aria-hidden="true"></canvas>
+
+  <header class="barra" id="barra">
+    <div class="barra-marca"><span class="gema"></span>FAIRY TAIL 2 · Traducción al español</div>
+    <div class="barra-ctrl">
+      <button class="bc" id="bMin" aria-label="Minimizar"><svg width="12" height="12" viewBox="0 0 12 12"><path d="M2 6h8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg></button>
+      <button class="bc cerrar" id="bCerrar" aria-label="Cerrar"><svg width="12" height="12" viewBox="0 0 12 12"><path d="m2.5 2.5 7 7m0-7-7 7" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg></button>
+    </div>
+  </header>
+
+  <aside class="poster" aria-label="Portada de la traducción">
+    <img src="poster.png" alt="Póster de FAIRY TAIL con Natsu, Lucy, Erza, Gray y Happy: Traducción al español por Donelys Entretenimiento">
+  </aside>
+
+  <main class="escena">
+    <div class="cabecera">
+      <div class="titulo">
+        <h1>FAIRY TAIL <b>2</b></h1>
+        <p>Traducción al español <i class="firma">By Donelys Entretenimiento</i></p>
+      </div>
+      <button class="btn chico" id="btnGuia" aria-controls="guia" aria-expanded="false">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 19V5"/></svg>
+        Guía
+      </button>
+    </div>
+
+    <nav class="camino" id="rail" aria-label="Pasos de la instalación"></nav>
+
+    <section class="cristal" aria-live="polite">
+      <div class="view" id="view" tabindex="-1"></div>
+      <div class="acciones" id="acciones"></div>
+    </section>
+
+    <aside class="guia" id="guia" aria-label="Guía de instalación" aria-hidden="true">
+      <header>
+        <h3>Cómo se instala</h3>
+        <button class="btn chico" id="cerrarGuia" aria-label="Cerrar la guía">Cerrar</button>
+      </header>
+      <div class="cuerpo">
+        <ol>
+          <li>Necesitas tener <b>FAIRY TAIL 2</b> instalado en tu equipo.</li>
+          <li>Elige la <b>carpeta principal</b> del juego, la que contiene <code>FAIRY_TAIL_2.exe</code>.</li>
+          <li>El programa comprueba que los archivos son compatibles con la traducción.</li>
+          <li>Se guarda una <b>copia de seguridad</b> de todo lo que se va a cambiar.</li>
+          <li>Se aplica la traducción española: textos, diálogos, fuente y texturas.</li>
+          <li>Se verifica la instalación archivo por archivo.</li>
+          <li>Puedes <b>volver al idioma original</b> cuando quieras desde este mismo instalador.</li>
+        </ol>
+        <p class="muted">No hace falta ningún cargador de mods, no se necesita Internet y no se tocan el ejecutable, las partidas guardadas ni los archivos de activación.</p>
+        <p><b>Si algo falla</b></p>
+        <details><summary>La carpeta no es la correcta</summary><p>Busca la carpeta donde está <code>FAIRY_TAIL_2.exe</code>; dentro tiene que haber una carpeta <code>MASTER</code> y otra <code>Motor</code>. No sirve la carpeta del lanzador ni la de partidas guardadas.</p></details>
+        <details><summary>El juego está abierto</summary><p>Cierra FAIRY TAIL 2 y vuelve a intentarlo. Con el juego abierto los archivos están en uso y no se pueden sustituir con seguridad.</p></details>
+        <details><summary>Los archivos no son compatibles</summary><p>El instalador se adapta a distintas versiones del juego: no exige archivos idénticos, solo que tengan la estructura que espera la traducción. Si algo no encaja (por ejemplo, archivos incompletos o de una edición muy distinta), no toca nada y te explica el motivo.</p></details>
+        <details><summary>No hay espacio suficiente</summary><p>Se necesita espacio para la copia de seguridad y para los archivos nuevos. Libera espacio en la unidad del juego y en <code>%LOCALAPPDATA%</code>.</p></details>
+        <details><summary>No hay permisos de escritura</summary><p>Si el juego está en una carpeta protegida (por ejemplo, Archivos de programa), abre el instalador con «Ejecutar como administrador».</p></details>
+        <details><summary>La traducción ya está instalada</summary><p>El instalador lo detecta y te ofrece reinstalarla o restaurar los archivos originales.</p></details>
+        <details><summary>No encuentra la copia de seguridad</summary><p>La copia se guarda en <code>%LOCALAPPDATA%\Donelys\FairyTail2ES</code>. Si la has borrado, usa la función de verificar archivos de tu plataforma de juegos para recuperar los originales.</p></details>
+      </div>
+    </aside>
+  </main>
+</div>
+<script>if (!(window.chrome && window.chrome.webview)) { document.write('<script src="dev/mock.js"><\/script>'); } /* solo desarrollo en navegador */</script>
+<script src="brasas.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

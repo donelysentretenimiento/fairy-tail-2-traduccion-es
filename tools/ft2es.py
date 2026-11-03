@@ -2,7 +2,7 @@
 No contiene archivos del juego: aplica textos y diferencias por bloques sobre los archivos ORIGINALES del propio usuario.
 Uso:  ft2es.py instalar  "RUTA_DEL_JUEGO"   |   ft2es.py desinstalar "RUTA_DEL_JUEGO"   |   ft2es.py verificar "RUTA_DEL_JUEGO"
 Solo toca: Motor/enUS/*.fdata (texturas y fuente), Motor/root.*.enUS.lang, MASTER/ENG/fixed_data/message/message.json.e
-y MASTER/ENG/EventMessageData/*.ebm. NO toca el ejecutable ni ningún otro archivo del juego fuera de los indicados."""
+y MASTER/ENG/EventMessageData/*.ebm. NO toca el ejecutable, tenoke.ini, steam_api64.* ni ningún archivo de activación."""
 import os, sys, json, zlib, struct, shutil, hashlib, zipfile, subprocess, tempfile
 
 AQUI = os.path.dirname(os.path.abspath(sys.argv[0] if getattr(sys, 'frozen', False) else __file__))

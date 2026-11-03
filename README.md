@@ -20,7 +20,16 @@ Para volver al juego original: abre el instalador y pulsa **Restaurar originales
 
 Necesitas tu propia copia de FAIRY TAIL 2. El instalador no incluye ningún archivo del juego: solo textos y diferencias que se aplican sobre tus archivos.
 
-> **Versión beta.** Esta primera versión solo acepta los archivos de la versión del juego para la que se preparó y rechaza otras. Ya se está retirando esa exigencia para que funcione con cualquier versión compatible; llegará en la próxima actualización junto con el código fuente del instalador.
+**Compatibilidad.** El instalador no comprueba sumas de verificación de tus archivos: acepta cualquier versión del juego cuya estructura sea la esperada y rechaza, sin tocar nada, las que no lo son. Antes de instalar guarda una copia de tus archivos y, si algo falla o cancelas, lo revierte todo.
+
+## Para desarrolladores
+
+```bash
+dotnet build src/FT2ES.slnx -c Release
+dotnet publish src/FT2ES.App -c Release -r win-x64 --self-contained
+```
+
+Las pruebas del motor (`src/FT2ES.EngineTests`) necesitan tus propios archivos originales del juego: define `FT2_TRABAJO` con la carpeta que contiene `backups_juego\`.
 
 ## Licencias
 
