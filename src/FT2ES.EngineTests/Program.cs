@@ -136,7 +136,7 @@ await Run("6. Carpeta inválida / estructura incompatible: rechazo sin tocar nad
         ("EBM truncado a la mitad", g => { var f = Directory.GetFiles(Path.Combine(g, "MASTER", "ENG", "EventMessageData"))[0]; var b = File.ReadAllBytes(f); File.WriteAllBytes(f, b[..(b.Length / 2)]); }),
         ("entrada FDATA con otro tamaño", g => { var f = Abs(g, "Motor/enUS/0xb766cb46.fdata"); var b = File.ReadAllBytes(f); var e = Fdata.Entries(b).First(x => x.Name == 0x13cbe5db); System.Buffers.Binary.BinaryPrimitives.WriteUInt64LittleEndian(b.AsSpan((int)e.Off + 24), (ulong)e.Us + 16); File.WriteAllBytes(f, b); }),
         ("message.json.e corrupto", g => { var f = Abs(g, "MASTER/ENG/fixed_data/message/message.json.e"); var b = File.ReadAllBytes(f); new Random(7).NextBytes(b); File.WriteAllBytes(f, b); }),
-        (".lang con otro nº de registros", g => { var f = Abs(g, "Motor/root.font.enUS.lang"); File.WriteAllBytes(f, File.ReadAllBytes(f).Concat(new byte[12]).ToArray()); }),
+        (".lang con menos registros", g => { var f = Abs(g, "Motor/root.texture.enUS.lang"); var b = File.ReadAllBytes(f); File.WriteAllBytes(f, b[..^12]); }),
     };
     foreach (var (nombre, rompe) in casos)
     {

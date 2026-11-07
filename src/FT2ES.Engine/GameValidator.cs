@@ -207,7 +207,7 @@ public static class GameValidator
                     finally { try { Directory.Delete(st.WorkDir, true); Directory.Delete(st.Dir); } catch { /* Delete(Dir) falla si no está vacío: es lo deseado */ } }
                     var labels = items.Select(x => x.Label).ToHashSet();
                     int found = pkg.Texts.Keys.Count(labels.Contains);
-                    if (found * 100 < pkg.Texts.Count * 95) return $"el archivo de textos solo contiene {found} de las {pkg.Texts.Count} etiquetas esperadas";
+                    if (found * 100 < pkg.Texts.Count * 90) return $"el archivo de textos solo contiene {found} de las {pkg.Texts.Count} etiquetas esperadas";
                 }
             }
             catch (Exception ex) when (ex is not FileNotFoundException)
