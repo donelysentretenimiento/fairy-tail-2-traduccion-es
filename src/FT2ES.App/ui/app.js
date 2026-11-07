@@ -55,7 +55,8 @@
     S.modo = 'instalar';
     const ic = (d) => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
     vista(`<div class="hero"><h2>Bienvenido, mago</h2>
-      <p class="lead">Instala la traducción española de FAIRY TAIL 2 y vive su historia, menús y diálogos en tu idioma.</p></div>
+      <p class="lead">Instala la traducción española de FAIRY TAIL 2 y vive su historia, menús y diálogos en tu idioma.</p>
+      <p class="compat"><span>Compatible con las versiones <b>1.2.0.0</b> y <b>1.3.0.0</b> del juego</span></p></div>
       <div class="teselas">
         <div class="tesela">${ic('<path d="M12 3 4.5 6v5.5c0 4.4 3.1 8.1 7.5 9.5 4.4-1.4 7.5-5.1 7.5-9.5V6z"/><path d="m8.8 12.2 2.4 2.4 4.2-4.6"/>')}<b>Copia de seguridad</b><span>Antes de cambiar nada se guardan tus archivos y se verifican.</span></div>
         <div class="tesela">${ic('<path d="M4 9V4.5M4 9h4.5M4 9a8.5 8.5 0 1 1-1 4.6"/>')}<b>Reversible</b><span>Vuelve al juego original cuando quieras desde este instalador.</span></div>

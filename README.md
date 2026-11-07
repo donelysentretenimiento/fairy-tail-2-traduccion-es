@@ -2,6 +2,8 @@
 
 Traducción **no oficial** de aficionados al español de España · **By Donelys Entretenimiento**
 
+> **Compatible con FAIRY TAIL 2 v1.2.0.0 y v1.3.0.0** (esta última con los 12 DLC). Otras versiones no están probadas: ver [Versiones del juego](#versiones-del-juego).
+
 ![Instalador](docs/capturas/bienvenida.png)
 
 ## Qué incluye
