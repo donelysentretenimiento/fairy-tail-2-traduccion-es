@@ -189,7 +189,7 @@ public static class GameValidator
                 }
                 else if (es.Lang.TryGetValue(rel, out var n))
                 {
-                    if (b.Length % 12 != 0 || b.Length / 12 != n) return $"{name} no tiene el número de registros esperado";
+                    if (b.Length % 12 != 0 || b.Length / 12 < n) return $"{name} tiene menos registros de los esperados"; // una versión nueva puede añadir registros
                 }
                 else if (es.Ebm.TryGetValue(rel, out var cnt))
                 {
