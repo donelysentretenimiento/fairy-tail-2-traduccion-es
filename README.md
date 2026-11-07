@@ -20,7 +20,19 @@ Para volver al juego original: abre el instalador y pulsa **Restaurar originales
 
 Necesitas tu propia copia de FAIRY TAIL 2. El instalador no incluye ningún archivo del juego: solo textos y diferencias que se aplican sobre tus archivos.
 
-**Compatibilidad.** El instalador no comprueba sumas de verificación de tus archivos: acepta cualquier versión del juego cuya estructura sea la esperada y rechaza, sin tocar nada, las que no lo son. Antes de instalar guarda una copia de tus archivos y, si algo falla o cancelas, lo revierte todo.
+## Versiones del juego
+
+| Versión del juego | Estado |
+|---|---|
+| 1.2.0.0 | Probada: instala, cancela y restaura correctamente. |
+| 1.3.0.0 (con los 12 DLC) | Probada: instala, cancela y restaura correctamente. Incluye la traducción de los textos que añade esta versión. |
+| Posteriores a 1.3.0.0 | **No probadas.** Pueden dar problemas (textos nuevos sin traducir o archivos con otra estructura). |
+
+Descarga siempre la última versión de [Releases](../../releases): la `v1.2.0-beta` es la primera con los textos de la 1.3.0.0. Las anteriores no instalan en la 1.3.0.0.
+
+**Cómo se comporta con una versión no probada.** El instalador no comprueba sumas de verificación de tus archivos. Analiza su estructura: si es la esperada, instala; si no, lo dice y no modifica nada. Aun así, una versión posterior puede añadir textos que se verán en inglés, y no se garantiza que todo funcione en el juego. Antes de instalar guarda una copia de tus archivos y, si algo falla o cancelas, lo revierte todo. «Restaurar originales» devuelve tu juego tal como estaba.
+
+Las pruebas se hicieron con réplicas de los archivos que toca el parche y con una instalación real en la 1.3.0.0. La comprobación dentro del juego es parcial: el apartado «Pendiente» de cada release dice qué falta por verificar.
 
 ## Para desarrolladores
 
