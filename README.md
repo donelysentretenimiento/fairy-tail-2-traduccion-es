@@ -22,8 +22,11 @@ Necesitas tu propia copia de FAIRY TAIL 2. El instalador no incluye ningún arch
 
 ## Versiones del juego
 
+El instalador lee la versión de `FAIRY_TAIL_2.exe` y la muestra en la pantalla de Comprobación; si no es una de las probadas, lo avisa.
+
 | Versión del juego | Estado |
 |---|---|
+| Anteriores a 1.2.0.0 (incluida la primera) | **No probadas:** no tengo esos archivos para comprobarlas. |
 | 1.2.0.0 | Probada: instala, cancela y restaura correctamente. |
 | 1.3.0.0 (con los 12 DLC) | Probada: instala, cancela y restaura correctamente. Incluye la traducción de los textos que añade esta versión. |
 | Posteriores a 1.3.0.0 | **No probadas.** Pueden dar problemas (textos nuevos sin traducir o archivos con otra estructura). |

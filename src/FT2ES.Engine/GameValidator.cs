@@ -10,6 +10,8 @@ namespace FT2ES.Engine;
 public static class GameValidator
 {
     public const string ExeName = "FAIRY_TAIL_2.exe";
+    /// <summary>Versiones del juego con las que se ha probado la traducción (instalar, cancelar y restaurar).</summary>
+    internal static readonly HashSet<string> VersionesProbadas = ["1.2.0.0", "1.3.0.0"];
     internal const string MsgRel = "MASTER/ENG/fixed_data/message/message.json.e";
 
     /// <summary>Analiza la carpeta del juego y devuelve el estado y todas las comprobaciones. No modifica nada del juego.</summary>
@@ -38,6 +40,15 @@ public static class GameValidator
         bool eng = Directory.Exists(Path.Combine(game, "MASTER", "ENG"));
         r.Add("exe", exe ? CheckLevel.Ok : CheckLevel.Error, exe ? $"Se ha encontrado {ExeName}." : $"No se encuentra {ExeName}: esta carpeta no parece ser la de FAIRY TAIL 2.");
         r.Add("master-eng", eng ? CheckLevel.Ok : CheckLevel.Error, eng ? "Existe la carpeta MASTER\\ENG." : "No existe la carpeta MASTER\\ENG.");
+        if (exe)
+        {
+            var ver = FileVersionInfo.GetVersionInfo(Path.Combine(game, ExeName)).FileVersion?.Trim();
+            if (!string.IsNullOrEmpty(ver))
+            {
+                bool probada = VersionesProbadas.Contains(ver);
+                r.Add("juego-version", probada ? CheckLevel.Ok : CheckLevel.Warning, probada ? $"Versión del juego: {ver}." : $"Versión del juego: {ver} (no probada con esta traducción; se comprobará la estructura).");
+            }
+        }
         var missing = m.Originales.Keys.Where(k => !File.Exists(Abs(game, k))).ToList();
         r.Add("recursos", missing.Count == 0 ? CheckLevel.Ok : CheckLevel.Error,
             missing.Count == 0 ? $"Están los {m.Originales.Count} archivos que necesita la traducción."

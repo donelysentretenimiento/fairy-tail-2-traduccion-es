@@ -92,7 +92,7 @@
     const reinst = a.state === 'TranslationInstalled' || a.state === 'Mixed';
     const chk = a.checks || [];
     const GRUPOS = [
-      ['Juego', ['exe', 'master-eng', 'recursos', 'version', 'estructura', 'estado'], () => { const m = (chk.find((c) => c.id === 'recursos') || {}).message || ''; const n = (m.match(/(\d+) archivos/) || [])[1]; return `Versión compatible${n ? ' · ' + n + ' archivos' : ''}`; }, '<path d="M4 7a2 2 0 0 1 2-2h4l2 2h6a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"/>'],
+      ['Juego', ['exe', 'master-eng', 'recursos', 'juego-version', 'version', 'estructura', 'estado'], () => { const m = (chk.find((c) => c.id === 'recursos') || {}).message || ''; const n = (m.match(/(\d+) archivos/) || [])[1]; const v = ((chk.find((c) => c.id === 'juego-version') || {}).message || '').match(/: (\d+(?:\.\d+)+)/); return `${v ? 'Versión ' + v[1] : 'Versión compatible'}${n ? ' · ' + n + ' archivos' : ''}`; }, '<path d="M4 7a2 2 0 0 1 2-2h4l2 2h6a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"/>'],
       ['Seguridad', ['respaldo', 'herramienta', 'proceso'], () => 'Se hará una copia de seguridad', '<path d="M12 3 4.5 6v5.5c0 4.4 3.1 8.1 7.5 9.5 4.4-1.4 7.5-5.1 7.5-9.5V6z"/><path d="m8.8 12.2 2.4 2.4 4.2-4.6"/>'],
       ['Espacio y permisos', ['solo-lectura', 'escritura', 'espacio'], () => { const m = (chk.find((c) => c.id === 'espacio') || {}).message || ''; const n = (m.match(/unos ([\d.,]+ ?\w+)/) || [])[1]; return `Todo en orden${n ? ' · unos ' + n : ''}`; }, '<path d="M4 6h16M4 12h16M4 18h10"/>'],
     ];
